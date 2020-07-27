@@ -1,3 +1,23 @@
+# grbl-1-1h-servo
+
+This is a special version of [grbl 1.1h version](https://github.com/gnea/grbl/releases/tag/v1.1h.20190825) with servo support.
+
+The only changed files are from [DWiskow](https://github.com/DWiskow/grbl1-1g-Servo).
+
+[DWiskow](https://github.com/DWiskow) explain his work in [this post](https://forum.eleksmaker.com/topic/2510/grbl-1-1g-with-servo-for-mana-se) and i replicate it in 1.1h release.
+
+To move the servo:
+```
+M3 S255     (turn servo full on)
+M5          (turn servo off)
+M3 S125     (turn servo half way)
+M3 S0       (turn servo on full off - similar to M5)
+```
+
+
+-------------
+
+
 ![GitHub Logo](https://github.com/gnea/gnea-Media/blob/master/Grbl%20Logo/Grbl%20Logo%20250px.png?raw=true)
 
 ***
